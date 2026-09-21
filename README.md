@@ -21,9 +21,6 @@ Startup screen:
 
 ![pico start](assets/screenshots/pico-start.png)
 
-Built-in REPL commands and session path:
-
-![pico repl](assets/screenshots/pico-repl.png)
 
 ## Installation
 
