@@ -1,6 +1,6 @@
-# pico
+# Coding Agent Harness
 
-`pico` is a lightweight local coding agent for code repositories. It runs directly in your terminal: it first inspects the current workspace, then uses a constrained set of tools to read files, edit files, and run commands, keeping session state in a local `.pico/` directory.
+This is a lightweight local coding agent for code repositories. It runs directly in your terminal: it first inspects the current workspace, then uses a constrained set of tools to read files, edit files, and run commands, keeping session state in a local `.pico/` directory.
 
 It behaves more like a command-line assistant that can keep working inside a repository than a plain chat window. Use it to investigate code, fix tests, analyze a repository, or run one-off engineering tasks in your current project.
 
@@ -10,19 +10,6 @@ It behaves more like a command-line assistant that can keep working inside a rep
 - Reading the current code structure and proposing changes
 - Iterating in small steps on existing files instead of guessing without repository context
 - Preserving context across a session so you can pick up where you left off
-
-## Key Features
-
-- Package name: `pico`
-- CLI command: `pico`
-- Module entry point: `python -m pico`
-- Sessions are stored in `.pico/sessions/`
-- Per-run artifacts are stored in `.pico/runs/<run_id>/`
-- Four model backends are supported:
-  - Ollama
-  - OpenAI-compatible Responses API
-  - Anthropic-compatible Messages API
-  - DeepSeek Anthropic-compatible API
 
 ## Screenshots
 
